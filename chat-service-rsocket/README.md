@@ -1,0 +1,1 @@
+Request-Response (Unary) : 이 방법에서 클라이언트는 서버에 단일 요청을 보내고 단일 응답을 기다립니다. 이는 클라이언트가 HTTP 요청을 보내고 HTTP 응답을 기다리는 기존 HTTP 요청-응답 모델과 유사합니다. RSocket에서 이것은 requestResponse()방법을 사용하여 달성됩니다

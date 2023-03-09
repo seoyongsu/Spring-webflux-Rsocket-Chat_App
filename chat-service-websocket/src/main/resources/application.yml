@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: chat-service
+
+  data:
+    mongodb:
+      database: chat-service
+      host: localhost
+      port: 27017

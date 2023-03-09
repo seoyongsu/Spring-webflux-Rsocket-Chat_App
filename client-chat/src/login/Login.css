@@ -1,0 +1,27 @@
+.login-container {
+  max-width: 420px;
+  margin: 0 auto;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 30px 50px 10px 50px;
+  border: 1px solid #e1e0e0;
+  background-color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.login-form-button {
+  width: 100%;
+  background-color: rebeccapurple !important;
+  color: white !important;
+  font-weight: 700 !important;
+}
+
+.socal_login_container {
+  display: flex;
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+  gap: 20px; /* 간격을 지정 */
+}

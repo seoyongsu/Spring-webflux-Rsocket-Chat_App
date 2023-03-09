@@ -1,0 +1,21 @@
+server:
+  port:
+
+spring:
+  application:
+    name: chat-service
+
+  data:
+    mongodb:
+      database: chat-service
+      host: localhost
+      port: 27017
+
+
+  rsocket:
+    server:
+      mapping-path: /rs
+      transport: websocket
+      port: 7000
+
+
