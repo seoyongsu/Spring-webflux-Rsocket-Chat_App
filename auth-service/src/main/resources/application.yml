@@ -13,7 +13,7 @@ spring:
         registration:
           kakao:
             client-name: Kakao
-            client-id: b26dffa8c04846ff8ba9b89bc07483e8
+            client-id: ''
             redirect-uri: '{baseUrl}/{action}/oauth2/code/{registrationId}'
 #            redirect-uri: 'localhost:3000'
             client-authentication-method: POST
@@ -21,14 +21,14 @@ spring:
             scope: profile_nickname, account_email
           naver:
             client-name: Naver
-            client-id: jVo_SVZWPKEyJmQjqK4W
-            client-secret: sJkHASTjKZ
+            client-id: ''
+            client-secret: ''
             redirect-uri: "{baseUrl}/{action}/oauth2/code/{registrationId}"          # (== http://localhost:80/login/oauth2/code/naver) 게이트에이 하드코딩방식
             authorization-grant-type: authorization_code
             scope: name, email
           google:
             client-name: google
-            client-id: 129842654485-c84i13kt2mj4kghbq25kbn4t2kdjh97b.apps.googleusercontent.com
+            client-id: ''
             client-secret: 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
             redirect-uri: "{baseUrl}/{action}/oauth2/code/{registrationId}"
             scope:
