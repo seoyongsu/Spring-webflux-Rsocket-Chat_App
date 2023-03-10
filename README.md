@@ -22,9 +22,9 @@ Auth-service
 chat-service-rsocket
 	Spring webflux 및 Rsocket을 활용한
 	Rsocket server
-	Reactive API의 간단한 예제를 포함하고 있습니다.
+	Webflux를 활용한 API의 간단한 예제를 포함하고 있습니다.
 	해당 예제에서는 Handler Function을 사용하지 않고,
-	RestController를 사용하였습니다.
+	Controller를 사용하였습니다.
 	
 
 chat-service-websocket
