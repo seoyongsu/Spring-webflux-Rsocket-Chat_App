@@ -1,4 +1,4 @@
-# WebSoket과 Roket의 차이점과 활용 방안을 공부하며 개발한 간단한 채팅 Application 구현예제 입니다.
+# WebSocket과 Rcoket의 차이점과 활용 방안을 공부하며 개발한 간단한 채팅 Application 구현예제 입니다.
 해당 예제는 
 User-Service
 Spring Webflux, oauth2, Spring Reactive Security, Jwt로 구현하였으며, 간단한 예제를 포함하고 있습니다.
